@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Entrega de Medicamentos</title>
+<link rel="stylesheet" href="proyecto.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Entrega de Medicamentos</h1>
+
+    <label>Existencias medicamento 1:</label>
+    <input type="number" id="med1" />
+
+    <label>Existencias medicamento 2:</label>
+    <input type="number" id="med2" />
+
+    <label>Presión sistólica:</label>
+    <input type="number" id="sistolica" />
+
+    <label>Presión diastólica:</label>
+    <input type="number" id="diastolica" />
+
+    <div class="row">
+      <button onclick="atenderPaciente()">Atender paciente</button>
+      <button onclick="mostrarResultados()">Mostrar resultados</button>
+    </div>
+
+    <div class="results" id="output"></div>
+  </div>
+</body>
+</html>
